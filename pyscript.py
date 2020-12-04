@@ -18,7 +18,7 @@ def main():
 
 	flow = boundary()
 	flow.Mach = [0.8]
-	flow.AlphaAngle = [0,6,12,18,24,30,36,40]
+	flow.AlphaAngle = [0,6,12,18,24,30]
 	flow.BetaAngle  = [0]
 	flow.checkBoundary()
 
